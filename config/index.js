@@ -9,7 +9,7 @@ module.exports = {
 
     // Paths
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    assetsPublicPath: './',
     //例如：localhost:8080/api/xxx 代理到 http://192.168.10.183:8103/api/xxx,如果用pathRewrite重写则代理到http://192.168.10.183:8103/xxx
     proxyTable: {
       "/api":{          // '/api':匹配项
